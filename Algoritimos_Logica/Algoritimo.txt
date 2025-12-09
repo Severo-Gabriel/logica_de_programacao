@@ -1,4 +1,4 @@
-algoritmo "SomarNome"
+algoritmo "somar_num"
 var
  A, B: inteiro
 inicio
