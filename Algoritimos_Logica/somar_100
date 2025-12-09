@@ -2,20 +2,20 @@ algoritmo "somar_100"
 var
  A, B, SOMA: REAL
 inicio
-
-Escreva ("Digite um número para A:")
+ 
+ Escreva ("Digite um número para A:")
  Leia (A)
-
-Escreva ("Digite um número para B:")
-
-Leia (B)
- Se (A > B) ENTAO
-  SOMA:= A + 100
- Senao
-  SOMA:= B + 100
-
-FimSe
-
-Escreval ("O maior número somado com 100 é: ", SOMA)
+ 
+ Escreva ("Digite um número para B:")
+ 
+ Leia (B)
+  Se (A > B) ENTAO
+   SOMA:= A + 100
+  Senao
+   SOMA:= B + 100
+ 
+ FimSe
+ 
+ Escreval ("O maior número somado com 100 é: ", SOMA)
 
 fimalgoritmo
