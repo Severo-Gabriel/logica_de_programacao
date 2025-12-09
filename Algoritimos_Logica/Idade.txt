@@ -1,12 +1,16 @@
 algoritmo "Idade"
 var
- Idade: inteiro
+Idade: inteiro
 inicio
+ 
 Escreva ("Digite sua idade:")
-LEIA (Idade)
+ LEIA (Idade)
+
 SE (Idade < 18)ENTAO
- ESCREVA ("Você é menor de idade!")
-  SENAO
- ESCREVA ("Você é maior de idade!")
- FIMSE
+  ESCREVA ("Você é menor de idade!")
+
+SENAO
+  ESCREVA ("Você é maior de idade!")
+FIMSE
+
 fimalgoritmo
