@@ -3,20 +3,20 @@ var
    ano_nasc, ano_atual, idade: inteiro
 
 inicio
-   escreval("Digite o ano de nascimento: ")
-   leia(ano_nasc)
+   Escreval("Digite o ano de nascimento: ")
+   Leia(ano_nasc)
 
-   escreval("Digite o ano atual: ")
-   leia(ano_atual)
+   Escreval("Digite o ano atual: ")
+   Leia(ano_atual)
 
    idade := ano_atual - ano_nasc
 
-   escreval("Idade calculada: ", idade, " anos")
+   Escreval("Idade calculada: ", idade, " anos")
 
-   se (idade >= 16) entao
+   Se (idade >= 16) entao
       escreval("Você pode votar.")
-   senao
-      escreval("Você não pode votar.")
-   fimse
+   Senao
+      Escreval("Você não pode votar.")
+   Fimse
 
 fimalgoritmo
