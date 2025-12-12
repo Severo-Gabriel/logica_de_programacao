@@ -1,9 +1,0 @@
-Escreva ("Indique sua altura:")
-Leia (At)
-IMC <- Ps / (At * At)
-Se (IMC > 22)entao
-Escreva ("Você está acima da norma seu resultado:", IMC)
-Senao
-Escreva ("Você está abaixo da norma", IMC)
-FimSe
-fimalgoritmo
