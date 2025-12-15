@@ -1,0 +1,27 @@
+algoritmo "fibonacci"
+var
+   n, i: inteiro
+   a, b, c: inteiro
+
+inicio
+   escreva("Digite a quantidade de termos: ")
+   leia(n)
+
+   a <- 1
+   b <- 1
+
+   se (n >= 1) entao
+      escreva(a, " ")
+   fimse
+
+   se (n >= 2) entao
+      escreva(b, " ")
+   fimse
+
+   para i de 3 ate n faca
+      c <- a + b
+      escreva(c, " ")
+      a <- b
+      b <- c
+   fimpara
+fimalgoritmo
