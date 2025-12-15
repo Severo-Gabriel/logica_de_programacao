@@ -1,0 +1,17 @@
+algoritmo "exibir_pares"
+var
+   A: vetor[1..10] de inteiro
+   i: inteiro
+
+inicio
+   para i de 1 ate 10 faca
+      escreva("Digite o valor de A[", i, "]: ")
+      leia(A[i])
+   fimpara
+   para i <- 1 ate 10 faca
+        se (A[i] mod 2 = 0)entao
+           escreva(A[i], "")
+        fimse
+   fimpara
+
+fimalgoritmo
